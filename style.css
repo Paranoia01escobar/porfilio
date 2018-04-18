@@ -1,0 +1,54 @@
+body{
+  background: url(picture.jpg) no-repeat;
+  background-size: cover;
+
+}
+.box{
+width: 500px;
+background: rgba(0, 0, 0, 0.4);
+padding: 40px;
+text-align: center;
+margin: auto;
+margin-top: 5%;
+color: white;
+font-family: 'Century Gothic',sans-serif;  
+}
+.box-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  color: grey;
+  
+}
+.box p{
+  color: yellow;
+  text-align: justify;
+}
+.box ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250 px;
+}
+.box a:hover{
+  color :#b9b9b9;
+}
